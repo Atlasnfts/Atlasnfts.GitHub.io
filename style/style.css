@@ -28,7 +28,7 @@ image {
   grid-template-rows: 250px 200px 1fr;
   background-image: url(../assets/img/background.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .headerMenu {
@@ -37,9 +37,11 @@ image {
   align-content: center;
   height: 150px;
 }
-.headerMenu img {
-  width: 200px;
+.headerMenu div {
+  display: flex;
+  align-items: center;
 }
+
 .headerMenu a {
   align-self: center;
   display: block;
@@ -77,7 +79,7 @@ image {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 0 20px;
+  margin: 0 30px;
   margin-bottom: 250px;
 }
 .textMenu p {
@@ -93,24 +95,20 @@ image {
   font-size: 2rem;
   line-height: 50px;
 }
-.textMenu img {
-  width: 120px;
-}
+
 .textMenu .nfts {
   color: #ff5b50;
 }
 .textMenu .avarts {
-  width: 100px;
   margin-top: 40px;
 }
 .gridMenu {
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-self: center;
-  gap: 10px;
+  gap: 30px;
 }
 .gridMenu img {
-  width: 250px;
   border: solid 1px #fff;
 }
 .gridMenu img:nth-child(5) {
@@ -124,4 +122,9 @@ image {
 }
 .gridMenu img:nth-child(8) {
   margin-top: 10px;
+}
+@media (max-width: 1300px) {
+  .gridMenu img {
+    width: 230px;
+  }
 }
