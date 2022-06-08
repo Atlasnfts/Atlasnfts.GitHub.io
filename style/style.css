@@ -18,7 +18,7 @@ a {
   display: block;
   text-decoration: none;
 }
-image {
+img {
   display: block;
   width: 100%;
 }
@@ -101,6 +101,19 @@ image {
 }
 .textMenu .avarts {
   margin-top: 40px;
+  width: 150px;
+}
+.avanrtsDiv {
+  display: flex;
+  align-items: flex-end;
+}
+.avanrtsDiv h1 {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+.avanrtsDiv p {
+  margin-top: 10px;
+  margin-left: -30px;
 }
 .gridMenu {
   display: grid;
@@ -123,8 +136,223 @@ image {
 .gridMenu img:nth-child(8) {
   margin-top: 10px;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  background: #0e0e0e;
+}
+
+.textos {
+  display: flex;
+  color: #fff;
+  gap: 100px;
+  margin: 100px;
+}
+.textos span {
+  color: #ff5b50;
+  text-decoration: underline;
+}
+.textos .paragrafo1 .paragrafo2 {
+  font-family: "Montserrat";
+  font-size: 400;
+  display: block;
+  width: 50px;
+}
+
+.textos .paragrafo1 a {
+  margin-top: 100px;
+  text-decoration: underline;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 400;
+}
+.textos .paragrafo2 a {
+  margin-top: 100px;
+  text-decoration: underline;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 400;
+}
+.numeros {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  text-align: end;
+  font-size: 2rem;
+  margin-right: 100px;
+  font-family: "Montserrat";
+  color: #fff;
+  border-right: solid 1px #252525;
+  border-bottom: solid 1px #252525;
+  width: 400px;
+}
+.numeros .artes {
+  margin-top: 110px;
+  margin-right: 100px;
+}
+.numeros .vendas {
+  margin-right: 100px;
+  margin-top: 70px;
+}
+.artes p {
+  text-align: center;
+  margin-left: 156px;
+  font-size: 1.5rem;
+  color: #252525;
+  font-weight: 700;
+}
+.vendas p {
+  text-align: center;
+  margin-left: 100px;
+  font-size: 1.5rem;
+  color: #252525;
+  font-weight: 700;
+}
+.numeros .artistas {
+  margin-top: 30px;
+  margin-right: 100px;
+}
+.artistas p {
+  text-align: center;
+  margin-left: 140px;
+  font-size: 1.5rem;
+  color: #252525;
+  font-weight: 700;
+}
+.textImg {
+  display: grid;
+  grid-template-rows: 350px 1fr;
+}
+.textImg .imgGrid {
+  margin-top: 50px;
+  width: 100%;
+  height: 250px;
+  background-image: url(../assets/img/banner.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  align-self: flex-end;
+}
+.container4parte {
+  background: #0e0e0e;
+  height: 700px;
+  text-align: center;
+}
+.container4parte a {
+  display: block;
+  margin-top: 50px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.container4parte a::after {
+  content: url(../assets/img/arrow-orange.svg);
+  position: absolute;
+  margin-left: 10px;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: #fff;
+}
+.titulo span {
+  color: #ff5b50;
+}
+
+.artistasContainer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background: #0e0e0e;
+}
+
+.artistasLogo {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  gap: 50px;
+  color: #fff;
+}
+.artistaDiv h2 {
+  color: #ff5b50;
+}
+
+.artistaDiv {
+  width: 400px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  background: #252525;
+  align-items: center;
+}
+.artistaDiv:nth-child(2) {
+  background: #ff5b50;
+  color: #fff;
+}
+.artistaDiv:nth-child(2) h2 {
+  color: #fff;
+}
+.artistaDiv h1 {
+  display: block;
+  text-align: start;
+  margin-bottom: 10px;
+}
+.astronautas {
+  background: #0e0e0e;
+}
+.tituloAstronautas {
+  margin-left: 400px;
+  color: #fff;
+}
+.gridAstronautas {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.containerAstronautas {
+  display: flex;
+  justify-content: center;
+}
+.astronauta1 .astronauta2 .astronauta3 .astronauta4,
+h1 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+.astronauta1,
+.astronauta2,
+.astronauta3,
+.astronauta4 {
+  width: 500px;
+  margin: 50px;
+  text-align: start;
+}
+.astronauta1::after {
+  content: "";
+  position: absolute;
+  margin-top: -235px;
+  margin-left: 450px;
+  display: block;
+  background: #252525;
+  width: 1px;
+  height: 580px;
+}
+.containerAstronautas img {
+  width: 300px;
+  height: 172px;
+}
+.nomeAstronauta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
 @media (max-width: 1300px) {
   .gridMenu img {
     width: 230px;
+  }
+  .textImg .imgGrid {
+    width: 100%;
+    height: 150px;
   }
 }
