@@ -65,7 +65,7 @@ image {
 }
 .btn-fox::before {
   display: block;
-  content: url(/assets/img/logo_MetaMask.svg);
+  content: url(../assets/img/logo_MetaMask.svg);
   position: absolute;
   margin-left: -30px;
   margin-top: -5px;
