@@ -138,6 +138,7 @@ body {
   display: grid;
   background: #0e0e0e;
   grid-template-columns: 1fr minmax(300px, 1400px) 1fr;
+  border-bottom: solid 1px #5a5757;
 }
 .sectionFlex2 {
   grid-column: 2/4;
