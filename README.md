@@ -1,3 +1,3 @@
-# Rocket-NFTs
+# Atlantis-NFTs
 Desafio Rocket NFTs
-https://marcio-brust.github.io/Rocket-NFTs/
+https://Atlasnfts.GitHub.io
